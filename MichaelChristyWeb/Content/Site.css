@@ -1,5 +1,4 @@
 ﻿body {
-    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -7,6 +6,15 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.jumbotron {
+    height: 100vh;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 

@@ -8,6 +8,7 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
+
     <div class="navbar navbar-inverse navbar-static-top">
         <div class="container">
             <div class="navbar-header">
@@ -16,9 +17,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Michael Christy", "Index", "Home", new { area = "" }, new { @class = "navbar-brand navbar-left" })
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse navbar-right">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
@@ -27,7 +28,8 @@
             </div>
         </div>
     </div>
-    <div class="container body-content">
+
+    <div>
         @RenderBody()
         <hr />
         <footer>
