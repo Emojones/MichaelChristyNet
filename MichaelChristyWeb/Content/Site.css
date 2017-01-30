@@ -17,6 +17,13 @@
     height: 100vh;
     background-image: url("../Images/StockSnap_W0RUS6FWBJ.jpg");
     background-size: cover;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.about {
+    margin: 0px 5px 0px 5px;
+   /* background-color: #008C9E;*/
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
