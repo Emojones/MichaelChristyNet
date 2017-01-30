@@ -1,11 +1,12 @@
 ﻿body {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    margin-bottom: 10px;
 }
 
 .navbar {
@@ -23,7 +24,6 @@
 
 .about {
     margin: 0px 5px 0px 5px;
-   /* background-color: #008C9E;*/
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -40,6 +40,9 @@ textarea {
     max-width: 280px;
 }
 
+.panel-body {
+    margin-left: 12px;
+}
 .contact {
    
 }
